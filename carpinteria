@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JAIM - Móveis, Remodelação & Construção</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header { background: #b52e1f; color: white; padding: 20px; text-align: center; }
+    nav { background: #333; display: flex; justify-content: center; }
+    nav a { color: white; padding: 14px 20px; text-decoration: none; display: block; }
+    nav a:hover { background: #555; }
+    section { padding: 40px; text-align: center; }
+    .logo { max-width: 300px; }
+    .services { display: flex; flex-direction: column; gap: 20px; max-width: 600px; margin: auto; }
+    .contact-info { font-size: 18px; line-height: 2; }
+    footer { background: #333; color: white; text-align: center; padding: 20px; }
+    @media (min-width: 768px) {
+      .services { flex-direction: row; justify-content: space-around; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="Imagem WhatsApp 2025-04-29 às 15.16.36_ecb437f9.jpg" alt="Logo JAIM" class="logo">
+    <h1>JAIM - Móveis, Remodelação & Construção</h1>
+  </header>
+  <nav>
+    <a href="#inicio">Início</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#contato">Contato</a>
+  </nav>
+
+  <section id="inicio">
+    <h2>Transformamos Espaços com Excelência</h2>
+    <p>Soluções personalizadas em carpintaria, reforma e construção.</p>
+  </section>
+
+  <section id="servicos">
+    <h2>Serviços</h2>
+    <div class="services">
+      <div><h3>Móveis Sob Medida</h3><p>Projetos exclusivos para sua casa ou empresa.</p></div>
+      <div><h3>Remodelações</h3><p>Renovação completa de ambientes.</p></div>
+      <div><h3>Construção</h3><p>Execução de obras do início ao fim.</p></div>
+    </div>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <div class="contact-info">
+      <p>📞 <strong>Telefone/WhatsApp:</strong> +351 968588082</p>
+      <p>✉️ <strong>Email:</strong> jaim.r2707@gmail.com</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 JAIM - Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
